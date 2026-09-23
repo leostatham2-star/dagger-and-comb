@@ -52,6 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
+        suppressHydrationWarning
         className={`${bebas.variable} ${jost.variable} antialiased bg-bone text-ink`}
       >
         {children}
