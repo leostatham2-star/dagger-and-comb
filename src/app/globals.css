@@ -1,0 +1,138 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* shadcn bridge tokens */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Dagger & Comb brand tokens */
+  --color-ink: var(--ink);
+  --color-coal: var(--coal);
+  --color-smoke: var(--smoke);
+  --color-bone: var(--bone);
+  --color-sand: var(--sand);
+  --color-brass: var(--brass);
+  --color-brass-soft: var(--brass-soft);
+  --color-oxblood: var(--oxblood);
+  --font-display: var(--font-bebas), "Arial Narrow", sans-serif;
+  --font-sans: var(--font-jost), "Segoe UI", sans-serif;
+}
+
+:root {
+  --radius: 0rem;
+
+  /* Brand palette */
+  --ink: #17130e;          /* deep warm black, main dark */
+  --coal: #211b13;         /* raised dark surface */
+  --smoke: #3a3226;        /* dark borders / subtle */
+  --bone: #f4efe4;         /* ivory light background */
+  --sand: #e5dcc9;         /* darker ivory, borders on light */
+  --brass: #c9973f;        /* primary gold accent */
+  --brass-soft: #dcae55;   /* hover gold */
+  --oxblood: #8c2f24;      /* deep red secondary accent */
+
+  --background: #f4efe4;
+  --foreground: #17130e;
+  --card: #f4efe4;
+  --card-foreground: #17130e;
+  --popover: #f4efe4;
+  --popover-foreground: #17130e;
+  --primary: #c9973f;
+  --primary-foreground: #17130e;
+  --secondary: #211b13;
+  --secondary-foreground: #f4efe4;
+  --muted: #e5dcc9;
+  --muted-foreground: #6f6454;
+  --accent: #c9973f;
+  --accent-foreground: #17130e;
+  --destructive: #8c2f24;
+  --border: #e5dcc9;
+  --input: #e5dcc9;
+  --ring: #c9973f;
+}
+
+.dark {
+  --background: #17130e;
+  --foreground: #f4efe4;
+  --card: #211b13;
+  --card-foreground: #f4efe4;
+  --popover: #211b13;
+  --popover-foreground: #f4efe4;
+  --primary: #c9973f;
+  --primary-foreground: #17130e;
+  --secondary: #211b13;
+  --secondary-foreground: #f4efe4;
+  --muted: #3a3226;
+  --muted-foreground: #a89a83;
+  --accent: #c9973f;
+  --accent-foreground: #17130e;
+  --destructive: #8c2f24;
+  --border: #3a3226;
+  --input: #3a3226;
+  --ring: #c9973f;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bone text-ink;
+    font-family: var(--font-jost), "Segoe UI", sans-serif;
+  }
+  ::selection {
+    background: var(--brass);
+    color: var(--ink);
+  }
+}
+
+@layer utilities {
+  .barber-stripe {
+    background: repeating-linear-gradient(
+      45deg,
+      var(--brass) 0px,
+      var(--brass) 10px,
+      var(--ink) 10px,
+      var(--ink) 20px,
+      #b03a2e 20px,
+      #b03a2e 30px,
+      var(--bone) 30px,
+      var(--bone) 40px
+    );
+  }
+  .texture-dark {
+    background-color: var(--ink);
+    background-image: radial-gradient(ellipse at 20% 0%, rgba(201, 151, 63, 0.07), transparent 55%),
+      radial-gradient(ellipse at 85% 100%, rgba(140, 47, 36, 0.08), transparent 50%);
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: var(--brass);
+    border-radius: 3px;
+  }
+}

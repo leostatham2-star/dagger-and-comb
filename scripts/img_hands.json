@@ -1,0 +1,54 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "tattooed hands holding tattoo machine close up"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "tattooed hands holding tattoo machine close up",
+  "count": 6,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b6687a90733c.jpeg",
+      "caption": "",
+      "source": "Pexels",
+      "original_width": "4000px",
+      "original_height": "6016px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ec827456dafb.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "867px",
+      "original_height": "1390px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/41b38217e4db.jpg",
+      "caption": "",
+      "source": "Shutterstock",
+      "original_width": "1500px",
+      "original_height": "1102px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fafd55d319f1.jpg",
+      "caption": "",
+      "source": "Tattoodo",
+      "original_width": "960px",
+      "original_height": "960px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/44665f61fe5b.jpg",
+      "caption": "",
+      "source": "Shutterstock",
+      "original_width": "1000px",
+      "original_height": "1600px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/13862803b38f.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    }
+  ]
+}

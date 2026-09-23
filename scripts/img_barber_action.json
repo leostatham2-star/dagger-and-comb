@@ -1,0 +1,82 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "barber giving a man a haircut in a dark moody vintage barbershop"
+✅ Got 10 images
+{
+  "success": true,
+  "query": "barber giving a man a haircut in a dark moody vintage barbershop",
+  "count": 10,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4dbd7f433b92.jpg",
+      "caption": "",
+      "source": "Etsy",
+      "original_width": "3000px",
+      "original_height": "3000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e3cdd7b13002.jpg",
+      "caption": "",
+      "source": "StockCake",
+      "original_width": "816px",
+      "original_height": "1456px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fc3c3bcc863a.jpeg",
+      "caption": "",
+      "source": "Pexels",
+      "original_width": "3456px",
+      "original_height": "5184px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/098ffe74c2a9.jpg",
+      "caption": "",
+      "source": "Shutterstock",
+      "original_width": "1500px",
+      "original_height": "1098px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d2e37c129077.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "957px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d592578f0df6.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "957px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a01d063c995f.jpg",
+      "caption": "",
+      "source": "Fresha",
+      "original_width": "1920px",
+      "original_height": "1378px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/af67609572c7.jpg",
+      "caption": "",
+      "source": "FilterGrade",
+      "original_width": "2500px",
+      "original_height": "1750px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/184a4740d28e.jpg",
+      "caption": "",
+      "source": "Wheree",
+      "original_width": "1000px",
+      "original_height": "1333px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4a6906122283.jpg",
+      "caption": "",
+      "source": "Zarla",
+      "original_width": "1280px",
+      "original_height": "860px"
+    }
+  ]
+}
