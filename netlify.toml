@@ -1,0 +1,14 @@
+# Netlify deployment configuration
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "next build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Netlify's official Next.js runtime is auto-installed and handles
+# server-side rendering, routing and image optimization.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
